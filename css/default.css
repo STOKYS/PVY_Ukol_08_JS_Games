@@ -90,6 +90,12 @@ h3 {
     font-size: 18px;
 }
 
+h4{
+    padding-left: 20%;
+    color: wheat;
+    font-size: 30px;
+}
+
 h5{
     text-align: center;
     padding-left: 5%;
@@ -123,6 +129,37 @@ p {
     border-radius: 1px;
     margin-bottom: 100px;
     background-color: rgba(255, 255, 255, 0.1)
+}
+
+.upcoming{
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.upcoming-game{
+    padding: 0px 10px;
+    margin: auto;
+    width: 95%;
+    height: 180px;
+    border: 2px solid gray;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 1px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.upcoming-game > h2 {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(242, 242, 242);
+}
+
+.upcoming-game > .source{
+    width: 100%
 }
 
 .web {
