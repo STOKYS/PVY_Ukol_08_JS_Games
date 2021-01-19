@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Selection</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>The Ultimate Game Bundle</title>
     <link rel="stylesheet" href="css/default.css">
 </head>
 
@@ -15,25 +16,28 @@
             <h2>Author: David Stoček</h2>
             <div class="info">
                 <p>Hi,<br><br>Have you ever wanted to kill some time? Or maybe just have some fun and play videogames?
-                    <b>Well, you're on the right place!</b><br><br>We have <b>THE</b> greatest selection of all the games you'll ever need! Probably <b>superior</b> to steams game library!<br>All hand crafted with <b>love</b> and a lots of <b>care</b>!<br><br>So, what are you waiting for? <b>Go</b> and have fun!</p>
+                    <b>Well, you're in the right place!</b><br><br>We have <b>THE</b> greatest selection of all the
+                    games you'll ever need! Probably <b>superior</b> to steams game library!<br>All handcrafted with
+                    <b>love</b> and a lot of <b>care</b>!<br><br>So, what are you waiting for? <b>Go</b> and have fun!
+                </p>
             </div>
         </div>
         <h4>Fully Available Games</h4>
         <div class="game_selection">
             <div class="game">
-                <h2>Chess</h2>
+                <h2>Tic Tac Toe</h2>
                 <button class="web">GitHub pages</button>
                 <button class="source">Source</button>
                 <div class="progress">
-                    <h3>Finished (Bug fixes)</h3>
+                    <h3>Finished, didn't find any bugs</h3>
                     <div class="done"
-                        style="background: linear-gradient(90deg, rgb(0, 50, 100) 0%, rgba(0,50,100,1) 94%, rgba(70,160,228,0) 95%, rgba(0,212,255,0) 100%);">
-                        <p style="margin-left: 90%;">95%</p>
+                        style="background: linear-gradient(90deg, rgb(0, 50, 100) 0%, rgba(0,50,100,1) 100%, rgba(70,160,228,0) 100%, rgba(0,212,255,0) 100%);">
+                        <p style="margin-left: 95%;">100%</p>
                     </div>
                 </div>
             </div>
             <div class="game">
-                <h2>Tic Tac Toe</h2>
+                <h2>Chess</h2>
                 <button class="web">GitHub pages</button>
                 <button class="source">Source</button>
                 <div class="progress">
@@ -49,22 +53,10 @@
                 <button class="web">GitHub pages</button>
                 <button class="source">Source</button>
                 <div class="progress">
-                    <h3>Playable</h3>
+                    <h3>Almost finished, still a few things to add / fix</h3>
                     <div class="done"
-                        style="background: linear-gradient(90deg, rgb(0, 50, 100) 0%, rgba(0,50,100,1) 44%, rgba(70,160,228,0) 45%, rgba(0,212,255,0) 100%);">
-                        <p style="margin-left: 40%;">45%</p>
-                    </div>
-                </div>
-            </div>
-            <div class="game">
-                <h2>Billy The Tax Evader</h2>
-                <button class="web">GitHub pages</button>
-                <button class="source">Source</button>
-                <div class="progress">
-                    <h3>Half way there</h3>
-                    <div class="done"
-                        style="background: linear-gradient(90deg, rgb(0, 50, 100) 0%, rgba(0,50,100,1) 59%, rgba(70,160,228,0) 60%, rgba(0,212,255,0) 100%);">
-                        <p style="margin-left: 55%;">60%</p>
+                        style="background: linear-gradient(90deg, rgb(0, 50, 100) 0%, rgba(0,50,100,1) 89%, rgba(70,160,228,0) 90%, rgba(0,212,255,0) 100%);">
+                        <p style="margin-left: 85%;">90%</p>
                     </div>
                 </div>
             </div>
@@ -82,12 +74,36 @@
                 </div>
             </div>
         </div>
+        <h4>Games Under Development</h4>
+        <div class="game_selection">
+            <div class="game">
+                <h2>Billy The Tax Evader</h2>
+                <button class="web">GitHub pages</button>
+                <button class="source">Source</button>
+                <div class="progress">
+                    <h3>Playable, but not really good</h3>
+                    <div class="done"
+                        style="background: linear-gradient(90deg, rgb(0, 50, 100) 0%, rgba(0,50,100,1) 49%, rgba(70,160,228,0) 50%, rgba(0,212,255,0) 100%);">
+                        <p style="margin-left: 45%;">50%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="game">
+                <h2>Poker</h2>
+                <button class="web">GitHub pages</button>
+                <button class="source">Source</button>
+                <div class="progress">
+                    <h3>Unplayable, just does something</h3>
+                    <div class="done"
+                        style="background: linear-gradient(90deg, rgb(0, 50, 100) 0%, rgba(0,50,100,1) 29%, rgba(70,160,228,0) 30%, rgba(0,212,255,0) 100%);">
+                        <p style="margin-left: 25%;">30%</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
         <h4>Upcoming Games</h4>
         <div class="upcoming">
-            <div class="upcoming-game">
-                <h2>Poker</h2>
-                <button class="source">Source</button>
-            </div>
             <div class="upcoming-game">
                 <h2>Tower Defence</h2>
                 <button class="source">Source</button>
@@ -99,9 +115,16 @@
         </div>
     </main>
     <footer>
-
+        <a href="" id="tt">My OnlyFans page</a>
     </footer>
     <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        document.getElementById("tt").addEventListener("click", function () {
+            // So that they can't look at the link
+            // Less known link, so noone will notice, everyones knows the original link
+            window.open("https://www.youtube.com/watch?v=DLzxrzFCyOs")
+        })
+    </script>
 </body>
 
 </html>
